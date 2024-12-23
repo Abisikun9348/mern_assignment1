@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.slider {
+  position: relative;
+  max-width: 600px; /* Set your desired width */
+  margin: auto;
+  overflow: hidden;
+}
+
+.slide {
+  display: none; /* Hide all slides by default */
+  width: 100%;
+  height: auto; /* Adjust height based on your images */
+}
+
+.active {
+  display: block; /* Show the active slide */
+}
